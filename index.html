@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url(moon.jpg);
+            background-size: cover;
+        }
+        .containe{
+            top:50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+        }
+        .card{
+            padding: 60px 40px 50px 40px;
+            background: rgb(50,50,50);
+            border-radius: 10px;
+        }
+        #name{
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid white;
+            padding: 6px;
+            margin-bottom: 20px;
+            width: 200px;
+            color: wheat;
+        }
+        #button{
+            border-radius: 20px;
+            padding: 10px 20px;
+            background: dodgerblue;
+            color: wheat;
+            margin-top: 20px;
+            border: none;
+            outline: none;
+            margin-left: 50px;
+        }
+        #button:hover{
+            background-color: greenyellow;
+            color: black;
+            cursor: pointer;
+        }
+        a{
+            font-size: 13px;
+        }
+        img{
+            border-radius: 50%;
+            position: absolute;
+            margin-left: 110px;
+            margin-top: -40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="containe">
+        <img src="usre.jpeg" height="70" width="70">
+        <div class="card">
+            <input type="text" placeholder="Username" id="name"><br>
+            <input type="password" placeholder="password" id="name"><br>
+            <a href="#">Forget password?</a><br>
+            <input type="Submit" value="Submit" id="button">
+        </div>
+    <div>
+</body>
+</html>
